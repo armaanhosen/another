@@ -5,7 +5,7 @@ body{
     .top-banner{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding: 2%;
     }
     p{
@@ -15,18 +15,28 @@ body{
     .top-banner img{
         width: 100%;
     }
-    section{
+    .top-bg{
         height: 500px;
-        background-image: url("everything/background.jpg");
+        background-image: url("everything/top-banner.png");
+        background-repeat: no-repeat;
     }
     .web{
         color: rgb(255, 88, 88);
     }
     .facebook{
         text-decoration: none;
-        background-color: rgb(93, 202, 202);
+        background-image: linear-gradient(50deg, lightsalmon, red);
         padding: 5px 10px;
         border-radius: 5px;
         color: rgb(255, 255, 255);
         
+    }
+    .middle{
+        height: 500px;
+        background-image: url("everything/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right, bottom;
+        background-size: 100px;
+        
+
     }
