@@ -3,6 +3,7 @@ body{
     margin: 0;
     }
     .top-banner{
+    margin-top: 0%;
     width: 40%;
     float: left;
     margin-left: 4%;
@@ -20,7 +21,7 @@ body{
         background-image: url("everything/top-banner.png");
         background-repeat: no-repeat;
     }
-    .web{
+    .orange{
         color: rgb(255, 88, 88);
     }
     .facebook{
@@ -39,4 +40,12 @@ body{
         background-size: 100px;
         
 
+    }
+    .bottom-makeup{
+        box-shadow: 10px 10px 40px grey;
+        margin-bottom: 100px;
+        margin-right: 0;
+    }
+    .footer{
+        text-align: center;
     }
