@@ -51,4 +51,10 @@ body{
     }
     .copyrights{
         text-align: center;
+        margin-bottom: 0;
+    }
+    .pro{
+        border-bottom: 7px solid;
+        border-image: linear-gradient(180deg,rgb(107, 100, 0), rgba(255, 0, 0, 0.555));
+        border-image-slice: 1;
     }
