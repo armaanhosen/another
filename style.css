@@ -29,7 +29,7 @@ p{
 }
 .top-banner{
     width: 40%;
-    margin-left: 5%;
+    margin-left: 4%;
     padding: 2%;
     float: left;
 }
@@ -53,12 +53,14 @@ p{
     border-image: linear-gradient(rgb(95, 224, 95), rgb(241, 153, 138));
     border-image-slice: 1;
     height: 50%;
+    overflow: auto;
 }
 #pro{
     border-left: 8px solid;
     border-image: linear-gradient(rgb(241, 153, 138),rgb(95, 224, 95));
     border-image-slice: 1;
     height: 50%;
+    overflow: auto;
 }
 footer p{
     font-size: smaller;
