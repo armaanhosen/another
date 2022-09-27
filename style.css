@@ -31,7 +31,6 @@ p{
     width: 40%;
     margin-left: 4%;
     padding: 2%;
-    float: left;
 }
 .top-banner img{
     width: 100%;
@@ -39,6 +38,15 @@ p{
 .top-bg{
     background-image: url("everything/top-banner.png");
     background-repeat: no-repeat;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.last{
+    display: flex;
 }
 .middle{
     background-image: url("everything/dream-bg.png");
